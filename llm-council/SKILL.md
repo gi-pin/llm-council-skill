@@ -1,6 +1,6 @@
 ---
 name: llm-council
-description: Multi-LLM collaborative brainstorming and planning. Use when user explicitly requests consultation with multiple AI models (ChatGPT, Gemini, other LLMs) before presenting an implementation plan, or asks to "consult the council", "ask other models", or "get perspectives from other AIs". Queries external LLM APIs, synthesizes their perspectives, and presents an adapted implementation plan.
+description: Multi-LLM collaborative brainstorming and planning. Use when user explicitly requests consultation with multiple AI models (ChatGPT, Gemini, other LLMs) before presenting an implementation plan, or asks to "consult the council", "ask other models", or "get perspectives from other AIs". Also triggers on these Chinese phrases (all synonyms for the same request): 諮詢council, 問其他AI, 你們AI討論一下, 問問ChatGPT和Gemini對這個的看法, AI們分析. Queries external LLM APIs, synthesizes their perspectives, and presents an adapted implementation plan.
 ---
 
 # LLM Council
